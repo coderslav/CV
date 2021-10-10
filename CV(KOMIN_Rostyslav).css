@@ -1,0 +1,474 @@
+@import "fonts.css";
+@media {
+    html {
+        font-size: 8.9px;
+    }
+    .left-side {
+        margin: 30px 15px 30px 35px;
+    }
+    .circle-image {
+        background: url(Photo.jpg) no-repeat center;
+        background-size: auto 200px;
+        width: 153px;
+        height: 153px;
+    }
+    .profession {margin-top: 10px;}
+    .name {margin-top: 15px;}
+    .coordinates {margin-top: 30px;}
+    .coordinates span {
+        padding-right: 5px;
+        width: 15px;
+        height: 15px;
+    }
+    .github, .linkedin {margin-top: 3px;}
+    .telegram-logo {
+        background: url(Telegram_black.png) no-repeat;
+        background-size: 15px;
+    }
+    .github-logo {
+        background: url(GitHub_black.png) no-repeat;
+        background-size: 15px;
+    }
+    .linkedin-logo {
+        background: url(LinkedIn_black.png) no-repeat;
+        background-size: 15px;
+    }
+    .section-title {margin: 30px 0 10px;}
+    .skill {margin-bottom: 4px;}
+    .scale {height: 6px;}
+    .right-side {margin: 30px 35px 30px 0;}
+    .right-side {margin-left: 15px;}
+    .sub-section-title {margin: 5px 0 3px;}
+    .sub-section-title-sub-title {margin-bottom: 3px;}
+    .hobby-text {padding-bottom: 4px}
+}
+
+@media (min-width: 650px){
+    html {
+        font-size: 9.9px;
+    }
+}
+@media (min-width: 700px){
+    html {
+        font-size: 12px;
+    }
+}
+@media (min-width: 750px){
+    html {
+        font-size: 13px;
+    }
+}
+@media (min-width: 800px){
+    html {
+        font-size: 14px;
+    }
+}
+@media (min-width: 850px){
+    html {
+        font-size: 15px;
+    }
+    .left-side {
+        margin: 30px 15px 30px 35px;
+    }
+    .circle-image {
+        background: url(Photo.jpg) no-repeat center;
+        background-size: auto 300px;
+        width: 229px;
+        height: 229px;
+    }
+    .profession {margin-top: 10px;}
+    .name {margin-top: 15px;}
+    .coordinates {margin-top: 30px;}
+    .coordinates span {
+        padding-right: 5px;
+        width: 22px;
+        height: 22px;
+    }
+    .github, .linkedin {margin-top: 3px;}
+    .telegram-logo {
+        background: url(Telegram_black.png) no-repeat;
+        background-size: 22px;
+    }
+    .github-logo {
+        background: url(GitHub_black.png) no-repeat;
+        background-size: 22px;
+    }
+    .linkedin-logo {
+        background: url(LinkedIn_black.png) no-repeat;
+        background-size: 22px;
+    }
+    .section-title {margin: 30px 0 10px;}
+    .skill {margin-bottom: 4px;}
+    .scale {height: 9px;}
+    .right-side {margin: 30px 35px 30px 0;}
+    .right-side {margin-left: 15px;}
+    .sub-section-title {margin: 5px 0 3px;}
+    .sub-section-title-sub-title {margin-bottom: 3px;}
+    .hobby-text {padding-bottom: 4px}
+}
+@media (min-width: 900px){
+    html {
+        font-size: 16px;
+    }
+}
+@media (min-width: 950px){
+    html {
+        font-size: 17px;
+    }
+}
+@media (min-width: 1000px){
+    html {
+        font-size: 18px;
+    }
+}
+@media (min-width: 1050px){
+    html {
+        font-size: 19px;
+    }
+}
+@media (min-width: 1100px){
+    html {
+        font-size: 20px;
+    }
+}
+@media (min-width: 1150px){
+    html {
+        font-size: 21px;
+    }
+}
+@media (min-width: 1200px){
+    html {
+        font-size: 22px;
+    }
+    .left-side {
+        margin: 45px 22px 45px 45px;
+    }
+    .circle-image {
+        background: url(Photo.jpg) no-repeat center;
+        background-size: auto 400px;
+        width: 306px;
+        height: 306px;
+    }
+    .profession {margin-top: 15px;}
+    .name {margin-top: 22px;}
+    .coordinates {margin-top: 45px;}
+    .coordinates span {
+        padding-right: 7px;
+        width: 30px;
+        height: 30px;
+    }
+    .github, .linkedin {margin-top: 4px;}
+    .telegram-logo {
+        background: url(Telegram_black.png) no-repeat;
+        background-size: 30px;
+    }
+    .github-logo {
+        background: url(GitHub_black.png) no-repeat;
+        background-size: 30px;
+    }
+    .linkedin-logo {
+        background: url(LinkedIn_black.png) no-repeat;
+        background-size: 30px;
+    }
+    .section-title {margin: 45px 0 25px;}
+    .skill {margin-bottom: 6px;}
+    .scale {height: 12px;}
+    .right-side {margin: 45px 52px 45px 0;}
+    .right-side {margin-left: 22px;}
+    .sub-section-title {margin: 7px 0 4px;}
+    .sub-section-title-sub-title {margin-bottom: 4px;}
+    .hobby-text {padding-bottom: 6px}
+}
+@media (min-width: 1250px){
+    html {
+        font-size: 23px;
+    }
+}
+@media (min-width: 1300px){
+    html {
+        font-size: 24px;
+    }
+}
+@media (min-width: 1350px){
+    html {
+        font-size: 25px;
+    }
+}
+@media (min-width: 1400px){
+    html {
+        font-size: 26px;
+    }
+}
+@media (min-width: 1450px){
+    html {
+        font-size: 27px;
+    }
+}
+@media (min-width: 1500px){
+    html {
+        font-size: 28px;
+    }
+}
+@media (min-width: 1550px){
+    html {
+        font-size: 29px;
+    }
+}
+@media (min-width: 1600px){
+    html {
+        font-size: 30px;
+    }
+}
+@media (min-width: 1650px){
+    html {
+        font-size: 31px;
+    }
+}
+@media (min-width: 1700px){
+    html {
+        font-size: 32px;
+    }
+    .left-side {
+        margin: 60px 30px 60px 70px;
+    }
+    .circle-image {
+        background: url(Photo.jpg) no-repeat center;
+        background-size: auto 600px;
+        width: 459px;
+        height: 459px;
+    }
+    .profession {margin-top: 20px;}
+    .name {margin-top: 30px;}
+    .coordinates {margin-top: 60px;}
+    .coordinates span {
+        padding-right: 10px;
+        width: 45px;
+        height: 45px;
+    }
+    .github, .linkedin {margin-top: 6px;}
+    .telegram-logo {
+        background: url(Telegram_black.png) no-repeat;
+        background-size: 45px;
+    }
+    .github-logo {
+        background: url(GitHub_black.png) no-repeat;
+        background-size: 45px;
+    }
+    .linkedin-logo {
+        background: url(LinkedIn_black.png) no-repeat;
+        background-size: 45px;
+    }
+    .section-title {margin: 60px 0 20px;}
+    .skill {margin-bottom: 8px;}
+    .scale {height: 18px;}
+    .right-side {margin: 60px 70px 60px 0;}
+    .right-side {margin-left: 30px;}
+    .sub-section-title {margin: 10px 0 6px;}
+    .sub-section-title-sub-title {margin-bottom: 6px;}
+    .hobby-text {padding-bottom: 8px}
+}
+@media (min-width: 1750px){
+    html {
+        font-size: 33px;
+    }
+}
+@media (min-width: 1800px){
+    html {
+        font-size: 34px;
+    }
+}
+@media (min-width: 1850px){
+    html {
+        font-size: 35px;
+    }
+}
+@media (min-width: 1900px){
+    html {
+        font-size: 36px;
+    }
+}
+@media print {
+    html {
+        font-size: 12px;
+    }
+     body {
+        margin: 0;
+    }
+    .left-side {
+        margin: 30px 15px 30px 35px;
+    }
+    .circle-image {
+        background: url(Photo.jpg) no-repeat center;
+        background-size: auto 250px;
+        width: 191px;
+        height: 191px;
+    }
+    .profession {margin-top: 10px;}
+    .name {margin-top: 15px;}
+    .coordinates {margin-top: 30px;}
+    .coordinates span {
+        padding-right: 5px;
+        width: 18px;
+        height: 18px;
+    }
+    .github, .linkedin {margin-top: 3px;}
+    .telegram-logo {
+        background: url(Telegram_black.png) no-repeat;
+        background-size: 18px;
+    }
+    .github-logo {
+        background: url(GitHub_black.png) no-repeat;
+        background-size: 18px;
+    }
+    .linkedin-logo {
+        background: url(LinkedIn_black.png) no-repeat;
+        background-size: 18px;
+    }
+    .section-title {margin: 30px 0 10px;}
+    .skill {margin-bottom: 4px;}
+    .scale {height: 7px;}
+    .right-side {margin: 30px 35px 30px 0;}
+    .right-side {margin-left: 15px;}
+    .sub-section-title {margin: 5px 0 3px;}
+    .sub-section-title-sub-title {margin-bottom: 3px;}
+    .hobby-text {padding-bottom: 4px}
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+}
+body {background-color: black;}
+.cv {
+    min-width: 595px;
+    min-height: 842px;
+    background-color: white;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 34% 2% 64%;
+}
+.part {background-color: white;}
+.circle-image {
+    border-radius: 50%;
+    margin: auto;
+}
+.profession {
+    font-weight: normal;
+    font-size: 1rem;
+    text-align: center;
+    letter-spacing: 0.15em;
+    color: #333333;
+}
+.name {
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-align: center;
+    letter-spacing: 0.15em;
+    color: #242732;
+}
+.coordinates {
+    font-weight: normal;
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+    color: #333333;
+    vertical-align: center;
+}
+.coordinates span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.coordinates  div {
+    font-weight: normal;
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+    color: #333333;
+}
+.section-title {
+    font-weight: 600;
+    font-size: 1.3rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #242732;
+}
+.section-title.profile-title {margin-top: 0}
+div.last-skill {margin-bottom: 0;}
+.skill > span {
+    display: inline-block;
+    width: 15%;
+}
+.skill {
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    color: #333333;
+}
+.scale {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+.scale.first-scale {
+    left: 25%;
+    width: 60%;
+    background: rgba(22, 149, 118, 0.2);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.scale.second-scale {
+    display: block;
+    background: #169576;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.scale.first-scale.lang {
+    left: 38%;
+    width: 47%;
+    }
+.Python.scale.second-scale {width: 80%;}
+.JavaScript.scale.second-scale {width: 70%;}
+.HTMLCSS.scale.second-scale {width: 70%;}
+.Django.scale.second-scale {width: 80%;}
+.NodeJS.scale.second-scale {width: 25%;}
+.SQL.scale.second-scale {width: 40%;}
+.Redis.scale.second-scale {width: 40%;}
+.Figma.scale.second-scale {width: 70%;}
+.French.scale.second-scale {width: 80%;}
+.English.scale.second-scale {width: 70%;}
+.Ukrainian.scale.second-scale {width: 100%;}
+.Russian.scale.second-scale {width: 100%;}
+.middle-line {background: linear-gradient(180deg, #77E0C7 -56.41%, rgba(119, 224, 199, 0) 85.33%);}
+.text {
+    font-weight: normal;
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+    color: #333333;
+}
+.sub-section-title {
+    font-weight: 500;
+    font-size: 1.1rem;
+    letter-spacing: 0.05em;
+    color: #333333;
+}
+.sub-section-title.first-sub-section-title {margin-top: 0;}
+.sub-section-title-sub-title {
+    font-weight: 500;
+    font-size: 0.9rem;
+    letter-spacing: 0.03em;
+    color: #999999;
+}
+.sub-section-title-sub-title.sub-section-title-sub-title-formation {margin-bottom: 0}
+.hobby-background {
+    width: 100%;
+    background: #F7F6F6;
+    mix-blend-mode: darken;
+    border: 1px dashed #F7F6F6;
+}
+div.hobby-text, span.hobbies {
+    font-family: 'PT Mono', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.98rem;
+    letter-spacing: 0.05em;
+    color: #333333;
+}
+.hobbies {
+    margin-left: 7.4%;
+}
