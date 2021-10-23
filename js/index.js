@@ -151,9 +151,9 @@ function translateToRussian() {
         '- игры: "Крестики-Нолики" и "Морской Бой"<br><span class="in-parentheses">Python</span>';
     legionnaireExp.textContent = 'Легионер';
     legionnaireExpTitle.innerHTML = 'Французский Иностранный Легион<br>Апрель 2015 - Июль 2020';
-    legionnaireExpText.innerHTML = '- командовал отделением из 3-5 человек<br><span class="in-parentheses">организация, обучение, руководство</span><br>\n' +
+    legionnaireExpText.innerHTML = '- командовал отделением из 3-5 человек<br><span class="in-parentheses">организация и распределение миссий, обучение, руководство</span><br>\n' +
         '- управлял тяжелой строительной техникой<br><span class="in-parentheses">самосвал, ковшовый погрузчик, экскаватор, бульдозер</span><br>\n' +
-        '- занимался компьютерным обслуживанием<br><span class="in-parentheses">устанавка/настройка ОС и ПО, сборка ПК</span>';
+        '- занимался компьютерным обслуживанием<br><span class="in-parentheses">установка/настройка ОС и ПО, сборка ПК</span>';
     education.textContent = 'ОБРАЗОВАНИЕ';
     matriceEdu.innerHTML = 'MATRICE<br>Сентябрь 2021 - настоящее время';
     skillFactoryEduTitle.textContent = 'Full-Stack Веб-Разработчик';
