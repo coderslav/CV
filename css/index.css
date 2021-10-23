@@ -680,6 +680,7 @@ div.hobby-text, span.hobbies {
     height: 100%;
     position: fixed;
     top: 0;
+    left: 0;
     width: 0;
     z-index: 1;
     background-color: rgba(0,0,0, 0.9);
@@ -687,11 +688,11 @@ div.hobby-text, span.hobbies {
     transition: 0.8s;
 }
 .overlay-content {
-  position: relative;
-  top: 35%;
-  width: 100%;
-  text-align: center;
-  margin-top: 4%;
+    position: relative;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+    margin-top: 4%;
 }
 .overlay span {
     text-decoration: none;
