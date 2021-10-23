@@ -12,7 +12,7 @@
         grid-template-columns: 34% 2% 64%;
     }
     .circle-image {
-        background: url(Photo.jpg) no-repeat center;
+        background: url(../images/Photo.jpg) no-repeat center;
         background-size: auto 200px;
         width: 153px;
         height: 153px;
@@ -25,19 +25,11 @@
         width: 15px;
         height: 15px;
     }
-    .telegram, .github, .linkedin {margin-top: 3px;}
-    .telegram-logo {
-        background: url(Telegram_black.png) no-repeat;
-        background-size: 15px;
+    .language-content .language-logo {
+        width: 15px;
+        height: 15px;
     }
-    .github-logo {
-        background: url(GitHub_black.png) no-repeat;
-        background-size: 15px;
-    }
-    .linkedin-logo {
-        background: url(LinkedIn_black.png) no-repeat;
-        background-size: 15px;
-    }
+    .mail, .telegram, .github, .linkedin, .address {margin-top: 3px;}
     .section-title {margin: 30px 0 10px;}
     .skill {margin-bottom: 4px;}
     .scale {height: 6px;}
@@ -47,7 +39,9 @@
     }
     .middle-line {background: linear-gradient(180deg, #77E0C7 -56.41%, rgba(119, 224, 199, 0) 85.33%);}
     .right-side {margin: 30px 35px 30px 15px;}
+    .overlay-button {right: calc(35px + 8px);}
     .section-title.profile-title {margin-top: 0}
+    .language-content {padding: 4px;}
     .sub-section-title {margin: 5px 0 3px;}
     .sub-section-title-sub-title {margin-bottom: 3px;}
     .hobby-text {padding-bottom: 4px}
@@ -57,6 +51,7 @@
         font-size: 15px;
     }
     .left-side, .right-side {margin: 0 10px;}
+    .overlay-button {right: calc(10px + 8px);}
     .cv {
         margin: 0;
         padding: 10px 0;
@@ -65,7 +60,7 @@
         align-content: start;
     }
     .circle-image {
-        background: url(Photo.jpg) no-repeat center;
+        background: url(../images/Photo.jpg) no-repeat center;
         background-size: auto 300px;
         width: 229px;
         height: 229px;
@@ -74,28 +69,20 @@
     .name {margin-top: 30px;}
     .coordinates {
         width: max-content;
-        margin: 10px auto;
+        margin: 30px auto;
     }
     .coordinates span {
         padding-right: 5px;
         width: 22px;
         height: 22px;
     }
-    .telegram, .github, .linkedin {
-        margin: 3px auto;
+    .language-content .language-logo {
+        width: 22px;
+        height: 22px;
+    }
+    .tel, .mail, .telegram, .github, .linkedin, .address {
+        margin: 3px;
         width: max-content;
-    }
-    .telegram-logo {
-        background: url(Telegram_black.png) no-repeat;
-        background-size: 22px;
-    }
-    .github-logo {
-        background: url(GitHub_black.png) no-repeat;
-        background-size: 22px;
-    }
-    .linkedin-logo {
-        background: url(LinkedIn_black.png) no-repeat;
-        background-size: 22px;
     }
     .section-title, .section-title.profile-title {margin: 30px 0 10px;}
     .skill {margin-bottom: 4px;}
@@ -105,6 +92,7 @@
         width: 60%;
     }
     .middle-line {display: none}
+    .language-content {padding: 4px;}
     .sub-section-title {margin: 5px 0 3px;}
     .sub-section-title-sub-title {margin-bottom: 3px;}
     .hobby-text {padding-bottom: 4px}
@@ -124,6 +112,7 @@
         font-size: 10px;
     }
     .left-side, .right-side {margin: 0 6px;}
+    .overlay-button {right: calc(6px + 8px);}
     .cv {
         margin: 0;
         padding: 6px 0;
@@ -132,7 +121,7 @@
         align-content: start;
     }
     .circle-image {
-        background: url(Photo.jpg) no-repeat center;
+        background: url(../images/Photo.jpg) no-repeat center;
         background-size: auto 200px;
         width: 152px;
         height: 152px;
@@ -141,28 +130,20 @@
     .name {margin-top: 20px;}
     .coordinates {
         width: max-content;
-        margin: 6px auto;
+        margin: 20px auto;
     }
     .coordinates span {
         padding-right: 3px;
         width: 15px;
         height: 15px;
     }
-    .telegram, .github, .linkedin {
-        margin: 2px auto;
+    .language-content .language-logo {
+        width: 15px;
+        height: 15px;
+    }
+    .mail, .telegram, .github, .linkedin, .address {
+        margin: 2px;
         width: max-content;
-    }
-    .telegram-logo {
-        background: url(Telegram_black.png) no-repeat;
-        background-size: 15px;
-    }
-    .github-logo {
-        background: url(GitHub_black.png) no-repeat;
-        background-size: 15px;
-    }
-    .linkedin-logo {
-        background: url(LinkedIn_black.png) no-repeat;
-        background-size: 15px;
     }
     .section-title, .section-title.profile-title {margin: 20px 0 6px;}
     .skill {margin-bottom: 2px;}
@@ -172,6 +153,7 @@
         width: 60%;
     }
     .middle-line {display: none}
+    .language-content {padding: 2px;}
     .sub-section-title {margin: 3px 0 2px;}
     .sub-section-title-sub-title {margin-bottom: 2px;}
     .hobby-text {padding-bottom: 2px}
@@ -186,6 +168,7 @@
         font-size: 8px;
     }
     .left-side, .right-side {margin: 0 5px;}
+    .overlay-button {right: calc(5px + 8px);}
     .cv {
         margin: 0;
         padding: 5px 0;
@@ -194,7 +177,7 @@
         align-content: start;
     }
     .circle-image {
-        background: url(Photo.jpg) no-repeat center;
+        background: url(../images/Photo.jpg) no-repeat center;
         background-size: auto 150px;
         width: 114px;
         height: 114px;
@@ -203,28 +186,20 @@
     .name {margin-top: 15px;}
     .coordinates {
         width: max-content;
-        margin: 5px auto;
+        margin: 30px auto;
     }
     .coordinates span {
         padding-right: 2px;
         width: 11px;
         height: 11px;
     }
-    .telegram, .github, .linkedin {
-        margin: 1px auto;
+    .language-content .language-logo {
+        width: 11px;
+        height: 11px;
+    }
+    .mail, .telegram, .github, .linkedin, .address {
+        margin: 1px;
         width: max-content;
-    }
-    .telegram-logo {
-        background: url(Telegram_black.png) no-repeat;
-        background-size: 11px;
-    }
-    .github-logo {
-        background: url(GitHub_black.png) no-repeat;
-        background-size: 11px;
-    }
-    .linkedin-logo {
-        background: url(LinkedIn_black.png) no-repeat;
-        background-size: 11px;
     }
     .section-title, .section-title.profile-title {margin: 30px 0 10px;}
     .skill {margin-bottom: 2px;}
@@ -234,6 +209,7 @@
         width: 60%;
     }
     .middle-line {display: none}
+    .language-content {padding: 1px;}
     .sub-section-title {margin: 2px 0 1px;}
     .sub-section-title-sub-title {margin-bottom: 1px;}
     .hobby-text {padding-bottom: 2px}
@@ -266,7 +242,7 @@
         margin: 30px 15px 30px 35px;
     }
     .circle-image {
-        background: url(Photo.jpg) no-repeat center;
+        background: url(../images/Photo.jpg) no-repeat center;
         background-size: auto 300px;
         width: 229px;
         height: 229px;
@@ -279,23 +255,17 @@
         width: 22px;
         height: 22px;
     }
-    .github, .linkedin {margin-top: 3px;}
-    .telegram-logo {
-        background: url(Telegram_black.png) no-repeat;
-        background-size: 22px;
+    .language-content .language-logo {
+        width: 22px;
+        height: 22px;
     }
-    .github-logo {
-        background: url(GitHub_black.png) no-repeat;
-        background-size: 22px;
-    }
-    .linkedin-logo {
-        background: url(LinkedIn_black.png) no-repeat;
-        background-size: 22px;
-    }
+    .mail, .telegram, .github, .linkedin, .address {margin-top: 3px;}
     .section-title {margin: 30px 0 10px;}
     .skill {margin-bottom: 4px;}
     .scale {height: 9px;}
     .right-side {margin: 30px 35px 30px 15px;}
+    .overlay-button {right: calc(35px + 8px);}
+    .language-content {padding: 4px;}
     .sub-section-title {margin: 5px 0 3px;}
     .sub-section-title-sub-title {margin-bottom: 3px;}
     .hobby-text {padding-bottom: 4px}
@@ -338,7 +308,7 @@
         margin: 45px 22px 45px 45px;
     }
     .circle-image {
-        background: url(Photo.jpg) no-repeat center;
+        background: url(../images/Photo.jpg) no-repeat center;
         background-size: auto 400px;
         width: 306px;
         height: 306px;
@@ -351,23 +321,17 @@
         width: 30px;
         height: 30px;
     }
-    .github, .linkedin {margin-top: 4px;}
-    .telegram-logo {
-        background: url(Telegram_black.png) no-repeat;
-        background-size: 30px;
+    .language-content .language-logo {
+        width: 30px;
+        height: 30px;
     }
-    .github-logo {
-        background: url(GitHub_black.png) no-repeat;
-        background-size: 30px;
-    }
-    .linkedin-logo {
-        background: url(LinkedIn_black.png) no-repeat;
-        background-size: 30px;
-    }
+    .mail, .telegram, .github, .linkedin, .address {margin-top: 4px;}
     .section-title {margin: 45px 0 25px;}
     .skill {margin-bottom: 6px;}
     .scale {height: 12px;}
     .right-side {margin: 45px 52px 45px 22px;}
+    .overlay-button {right: calc(52px + 8px);}
+    .language-content {padding: 6px;}
     .sub-section-title {margin: 7px 0 4px;}
     .sub-section-title-sub-title {margin-bottom: 4px;}
     .hobby-text {padding-bottom: 6px}
@@ -425,7 +389,7 @@
         margin: 60px 30px 60px 70px;
     }
     .circle-image {
-        background: url(Photo.jpg) no-repeat center;
+        background: url(../images/Photo.jpg) no-repeat center;
         background-size: auto 600px;
         width: 459px;
         height: 459px;
@@ -438,23 +402,17 @@
         width: 45px;
         height: 45px;
     }
-    .github, .linkedin {margin-top: 6px;}
-    .telegram-logo {
-        background: url(Telegram_black.png) no-repeat;
-        background-size: 45px;
+    .language-content .language-logo {
+        width: 45px;
+        height: 45px;
     }
-    .github-logo {
-        background: url(GitHub_black.png) no-repeat;
-        background-size: 45px;
-    }
-    .linkedin-logo {
-        background: url(LinkedIn_black.png) no-repeat;
-        background-size: 45px;
-    }
+    .mail, .telegram, .github, .linkedin, .address {margin-top: 6px;}
     .section-title {margin: 60px 0 20px;}
     .skill {margin-bottom: 8px;}
     .scale {height: 18px;}
     .right-side {margin: 60px 70px 60px 30px;}
+    .overlay-button {right: calc(70px + 8px);}
+    .language-content {padding: 9px;}
     .sub-section-title {margin: 10px 0 6px;}
     .sub-section-title-sub-title {margin-bottom: 6px;}
     .hobby-text {padding-bottom: 8px}
@@ -483,46 +441,63 @@
     html {
         font-size: 12px;
     }
+
     body {
         margin: 0;
     }
     .left-side {
         margin: 30px 15px 30px 35px;
     }
+    .cv {
+        margin: 0;
+        display: grid;
+        grid-template-columns: 34% 2% 64%;
+    }
     .circle-image {
-        background: url(Photo.jpg) no-repeat center;
-        background-size: auto 250px;
-        width: 191px;
-        height: 191px;
+        background: url(../images/Photo.jpg) no-repeat center;
+        background-size: auto 200px;
+        width: 153px;
+        height: 153px;
     }
     .profession {margin-top: 10px;}
     .name {margin-top: 15px;}
     .coordinates {margin-top: 30px;}
     .coordinates span {
         padding-right: 5px;
-        width: 18px;
-        height: 18px;
+        width: 15px;
+        height: 15px;
     }
-    .github, .linkedin {margin-top: 3px;}
-    .telegram-logo {
-        background: url(Telegram_black.png) no-repeat;
-        background-size: 18px;
+    .language-content .language-logo {
+        width: 15px;
+        height: 15px;
     }
-    .github-logo {
-        background: url(GitHub_black.png) no-repeat;
-        background-size: 18px;
-    }
-    .linkedin-logo {
-        background: url(LinkedIn_black.png) no-repeat;
-        background-size: 18px;
-    }
+    .mail, .telegram, .github, .linkedin, .address {margin-top: 3px;}
     .section-title {margin: 30px 0 10px;}
     .skill {margin-bottom: 4px;}
-    .scale {height: 7px;}
+    .scale {height: 6px;}
+    .scale.first-scale.lang {
+        left: 38%;
+        width: 47%;
+    }
+    .middle-line {
+        background: linear-gradient(180deg, #77E0C7 -56.41%, rgba(119, 224, 199, 0) 85.33%);
+        display: block;
+    }
     .right-side {margin: 30px 35px 30px 15px;}
+    .overlay-button {right: calc(35px + 8px);}
+    .section-title.profile-title {margin-top: 0}
+    .language-content {padding: 4px;}
     .sub-section-title {margin: 5px 0 3px;}
     .sub-section-title-sub-title {margin-bottom: 3px;}
     .hobby-text {padding-bottom: 4px}
+    .overlay-button {
+        display: none;
+    }
+}
+:root {
+    --text-color: #333333;
+    --title-color: #242732;
+    --sub-section-color: #999999;
 }
 html {
     background-color: #169576;
@@ -543,37 +518,73 @@ html {
     font-size: 1rem;
     text-align: center;
     letter-spacing: 0.15em;
-    color: #333333;
+    color: var(--text-color);
 }
 .name {
     font-weight: bold;
     font-size: 1.3rem;
     text-align: center;
     letter-spacing: 0.15em;
-    color: #242732;
+    color: var(--title-color);
 }
 .coordinates {
     font-weight: normal;
     font-size: 0.9rem;
     letter-spacing: 0.05em;
-    color: #333333;
+    color: var(--text-color);
 }
-.coordinates span {
+.coordinates span, .language-content span {
     display: inline-block;
     vertical-align: middle;
+}
+.coordinates a {
+    text-decoration: none;
+    color: var(--text-color);
 }
 .coordinates  div {
     font-weight: normal;
     font-size: 0.9rem;
     letter-spacing: 0.05em;
-    color: #333333;
+    color: var(--text-color);
+}
+.tel-logo {
+    background: url(../images/Tel_black.png) no-repeat;
+    background-size: contain;
+}
+ .mail-logo {
+    background: url(../images/Mail.png) no-repeat;
+    background-size: contain;
+}
+.telegram-logo {
+    background: url(../images/Telegram_black.png) no-repeat;
+    background-size: contain;
+}
+.github-logo {
+    background: url(../images/GitHub_white.png) no-repeat;
+    background-size: contain;
+}
+.linkedin-logo {
+    background: url(../images/LinkedIn_black.png) no-repeat;
+    background-size: contain;
+}
+.address-logo {
+    background: url(../images/Address.png) no-repeat;
+    background-size: contain;
+}
+.language-logo {
+    background: url(../images/Language_Planet_black.png) no-repeat;
+    background-size: contain;
+}
+.overlay-button:hover .language-logo {
+    background: url(../images/Language_Planet_white.png) no-repeat;
+    background-size: contain;
 }
 .section-title {
     font-weight: 600;
     font-size: 1.3rem;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-    color: #242732;
+    color: var(--title-color);
 }
 .skill > span {
     display: inline-block;
@@ -583,7 +594,7 @@ html {
     font-size: 1rem;
     font-weight: 500;
     letter-spacing: 0.05em;
-    color: #333333;
+    color: var(--text-color);
 }
 .scale {
     display: inline-block;
@@ -606,6 +617,7 @@ html {
 .HTMLCSS.scale.second-scale {width: 70%;}
 .Django.scale.second-scale {width: 80%;}
 .NodeJS.scale.second-scale {width: 25%;}
+.React.scale.second-scale {width: 25%;}
 .SQL.scale.second-scale {width: 40%;}
 .Redis.scale.second-scale {width: 40%;}
 .Figma.scale.second-scale {width: 70%;}
@@ -617,19 +629,23 @@ html {
     font-weight: normal;
     font-size: 0.9rem;
     letter-spacing: 0.05em;
-    color: #333333;
+    color: var(--text-color);
 }
 .sub-section-title {
     font-weight: 500;
     font-size: 1.1rem;
     letter-spacing: 0.05em;
-    color: #333333;
+    color: var(--text-color);
 }
 .sub-section-title-sub-title {
     font-weight: 500;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     letter-spacing: 0.03em;
-    color: #999999;
+    color: var(--sub-section-color);
+}
+.in-parentheses {
+    font-size: 0.7rem;
+    font-style: italic;
 }
 .hobby-background {
     width: 100%;
@@ -647,4 +663,53 @@ div.hobby-text, span.hobbies {
 }
 .hobbies {
     margin-left: 7.4%;
+}
+.overlay-button {
+    position: absolute;
+    width: max-content;
+    background-color: rgb(193, 235, 223);
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.overlay-button:hover {
+    background-color: #169576;
+    color: white;
+}
+.overlay {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 0;
+    z-index: 1;
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.8s;
+}
+.overlay-content {
+  position: relative;
+  top: 35%;
+  width: 100%;
+  text-align: center;
+  margin-top: 4%;
+}
+.overlay span {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #818181;
+    display: block;
+    width: max-content;
+    margin: 1.5% auto;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.overlay span:hover {
+    color: #f1f1f1;
+}
+.overlay .close-btn {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 2.8rem;
+    margin: 0;
 }
