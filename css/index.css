@@ -696,7 +696,7 @@ div.hobby-text, span.hobbies {
 }
 .overlay span {
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #818181;
     display: block;
     width: max-content;
@@ -710,7 +710,7 @@ div.hobby-text, span.hobbies {
 .overlay .close-btn {
     position: absolute;
     top: 5%;
-    right: 5%;
-    font-size: 2.8rem;
+    right: 6%;
+    font-size: 4rem;
     margin: 0;
 }
