@@ -74,7 +74,7 @@ function translateToEnglish() {
     skillFactoryEduTitle.textContent = 'Python Full-Stack Web Developer';
     skillFactoryEdu.innerHTML = 'SkillFactory<br>October 2020 - till date';
     frEduTitle.textContent = 'Master in Organization Management';
-    frEdu.innerHTML = 'University of Clermont-Ferrand 1 Auvergne<br>September 2008 - June 2013';
+    frEdu.innerHTML = 'University of Auvergne (Clermont-Ferrand 1)<br>September 2008 - June 2013';
     uaEduTitle.textContent = 'Master in Commerce';
     uaEdu.innerHTML = 'Kyiv National University of Trade and Economics<br>September 2007 - June 2012';
     hobby.textContent = 'HOBBY';
@@ -119,7 +119,7 @@ function translateToFrench() {
     skillFactoryEduTitle.textContent = 'Python Full-Stack Développeur Web';
     skillFactoryEdu.innerHTML = 'SkillFactory<br>Octobre 2020 - présent';
     frEduTitle.textContent = 'Master en Pilotage des Organisations';
-    frEdu.innerHTML = 'Université de Clermont-Ferrand 1 Auvergne<br>Septembre 2008 - Juin 2013';
+    frEdu.innerHTML = 'Université d\'Auvergne (Clermont-Ferrand 1)<br>Septembre 2008 - Juin 2013';
     uaEduTitle.textContent = 'Master en Commerce';
     uaEdu.innerHTML = 'Kyiv National University of Trade and Economics<br>Septembre 2007 - Juin 2012';
     hobby.textContent = 'CENTRES D’INTÉRÊT';
@@ -163,7 +163,7 @@ function translateToRussian() {
     skillFactoryEduTitle.textContent = 'Python Full-Stack Веб-Разработчик';
     skillFactoryEdu.innerHTML = 'SkillFactory<br>Октябрь 2020 - настоящее время';
     frEduTitle.textContent = 'Магистр по Менеджменту Организации';
-    frEdu.innerHTML = 'Университет Клермон-Ферран 1 Овернь<br>Сентябрь 2008 - Июнь 2013';
+    frEdu.innerHTML = 'Университет Оверни (Клермон-Ферран 1)<br>Сентябрь 2008 - Июнь 2013';
     uaEduTitle.textContent = 'Магистр по Коммерческой Деятельности';
     uaEdu.innerHTML = 'КНТЭУ<br>Сентябрь 2007 - Июнь 2012';
     hobby.textContent = 'ХОББИ';
