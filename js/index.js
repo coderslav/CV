@@ -121,7 +121,7 @@ function translateToFrench() {
     frEduTitle.textContent = 'Master en Pilotage des Organisations';
     frEdu.innerHTML = 'Université d\'Auvergne (Clermont-Ferrand 1)<br>Septembre 2008 - Juin 2013';
     uaEduTitle.textContent = 'Master en Commerce';
-    uaEdu.innerHTML = 'Kyiv National University of Trade and Economics<br>Septembre 2007 - Juin 2012';
+    uaEdu.innerHTML = 'Université nationale de commerce et d\'économie de Kiev<br>Septembre 2007 - Juin 2012';
     hobby.textContent = 'CENTRES D’INTÉRÊT';
     hobbyText.innerHTML = 'if (je ne suis pas devant l\'ordinateur){<br><span class="hobbies">je fais du sport (natation, gym, footing);</span><br><span class="hobbies">je voyage;</span><br><span class="hobbies">je mange (tout sauf du poisson);</span><br><span class="hobbies">je dors;</span><br>}';
     languageFlag = 'french';
