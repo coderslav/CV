@@ -102,7 +102,7 @@ function translateToFrench() {
     profileText.textContent = 'Diplômé d’un Master en Commerce et Management, ancien militaire de la Légion Étrangère avec 3 ans d\'expérience en gestion, en reconversion depuis octobre 2020. À la recherche d’une alternance en tant que Développeur Web à partir de fin février 2022 au rythme suivant: 4 jours en entreprise et 1 jour en formation';
     experience.textContent = 'EXPÉRIENCES';
     skillFactoryExp.innerHTML = 'SkillFactory<br>Octobre 2020 - présent';
-    skillFactoryExpText.innerHTML = 'J\'ai développé différents projets dans le cadre de ma formation:<br>\n' +
+    skillFactoryExpText.innerHTML = 'Développé différents projets dans le cadre de ma formation:<br>\n' +
         '- un desktop-messenger<br><span class="in-parentheses">Python, JavaScript, Django REST Framework, HTML/CSS, WebSocket, AJAX</span><br>\n' +
         '- un site d\'information<br><span class="in-parentheses">Python, Django, HTML/CSS</span><br>\n' +
         '- un bot pour Telegram messenger<br><span class="in-parentheses">Python, pyTelegramBotAPI</span><br>\n' +
