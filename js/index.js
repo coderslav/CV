@@ -33,6 +33,7 @@ const uaEduTitle = document.getElementById('uaEduTitle');
 const uaEdu = document.getElementById('uaEdu');
 const hobby =document.getElementById('hobby');
 const hobbyText = document.getElementById('hobbyText');
+const allFirstScaleLang = document.querySelectorAll('.languages .first-scale');
 
 function openNav() {
   document.getElementById('myNav').style.width = "100%";
@@ -57,7 +58,7 @@ function translateToEnglish() {
     profile.textContent = 'PROFILE';
     profileText.textContent = 'Former legionnaire of the French Foreign Legion with two master economic degrees, as well as 3 years of management experience and 1 year of Full-Stack Web Development experience in Python and JavaScript. In search of new professional experience and skills. Ambitious, disciplined and scrupulous';
     experience.textContent = 'EXPERIENCE';
-    skillFactoryExp.innerHTML = 'SkillFactory<br>October 2020 - till date';
+    skillFactoryExp.innerHTML = 'SkillFactory<br>October 2020 - September 2021';
     skillFactoryExpText.innerHTML = 'Developed different projects as part of my study:<br>\n' +
         '- desktop messenger<br><span class="in-parentheses">Python, JavaScript, Django REST Framework, HTML/CSS, WebSocket, AJAX</span><br>\n' +
         '- information site<br><span class="in-parentheses">Python, Django, HTML/CSS</span><br>\n' +
@@ -80,6 +81,10 @@ function translateToEnglish() {
     hobby.textContent = 'HOBBY';
     hobbyText.innerHTML = 'if (I\'m not at the computer){<br><span class="hobbies">I do sports (swimming, gym, jogging);</span><br><span class="hobbies">I travel;</span><br><span class="hobbies">I eat (everything except fish);</span><br><span class="hobbies">I sleep;</span><br>}';
     languageFlag = 'english';
+    let ruLangScale = document.querySelectorAll('.lang');
+    if (ruLangScale){
+      allFirstScaleLang.forEach(firstScaleLang => firstScaleLang.classList.remove('lang'))
+    }
     closeNav();
   }
   else closeNav();
@@ -101,7 +106,7 @@ function translateToFrench() {
     profile.textContent = 'PROFIL';
     profileText.textContent = 'Diplômé d’un Master en Commerce et Management, ancien militaire de la Légion Étrangère avec 3 ans d\'expérience en gestion, en reconversion depuis octobre 2020. À la recherche d’une alternance en tant que Développeur Web à partir de fin février 2022 au rythme suivant: 4 jours en entreprise et 1 jour en formation';
     experience.textContent = 'EXPÉRIENCES';
-    skillFactoryExp.innerHTML = 'SkillFactory<br>Octobre 2020 - présent';
+    skillFactoryExp.innerHTML = 'SkillFactory<br>Octobre 2020 - Septembre 2021';
     skillFactoryExpText.innerHTML = 'Développé différents projets dans le cadre de ma formation:<br>\n' +
         '- un desktop-messenger<br><span class="in-parentheses">Python, JavaScript, Django REST Framework, HTML/CSS, WebSocket, AJAX</span><br>\n' +
         '- un site d\'information<br><span class="in-parentheses">Python, Django, HTML/CSS</span><br>\n' +
@@ -125,6 +130,10 @@ function translateToFrench() {
     hobby.textContent = 'CENTRES D’INTÉRÊT';
     hobbyText.innerHTML = 'if (je ne suis pas devant l\'ordinateur){<br><span class="hobbies">je fais du sport (natation, gym, footing);</span><br><span class="hobbies">je voyage;</span><br><span class="hobbies">je mange (tout sauf du poisson);</span><br><span class="hobbies">je dors;</span><br>}';
     languageFlag = 'french';
+    let ruLangScale = document.querySelectorAll('.lang');
+    if (ruLangScale){
+      allFirstScaleLang.forEach(firstScaleLang => firstScaleLang.classList.remove('lang'))
+    }
     closeNav();
   }
   else closeNav();
@@ -146,7 +155,7 @@ function translateToRussian() {
     profile.textContent = 'ПРОФИЛЬ';
     profileText.textContent = 'Бывший легионер Французского Иностранного Легиона с двумя высшими экономическими образованиями, а также с 3-летним опытом управления и 1-летним опытом Full-Stack веб-разработки на языках Python и JavaScript. В поисках нового профессионального опыта и навыков. Амбициозный, дисциплинированный и скрупулёзный';
     experience.textContent = 'ОПЫТ';
-    skillFactoryExp.innerHTML = 'SkillFactory<br>Октябрь 2020 - настоящее время';
+    skillFactoryExp.innerHTML = 'SkillFactory<br>Октябрь 2020 - Сентябрь 2021';
     skillFactoryExpText.innerHTML = 'Разработал различные проекты в рамках моего обучения:<br>\n' +
         '- десктопный мессенджер<br><span class="in-parentheses">Python, JavaScript, Django REST Framework, HTML/CSS, WebSocket, AJAX</span><br>\n' +
         '- информационный сайт<br><span class="in-parentheses">Python, Django, HTML/CSS</span><br>\n' +
@@ -169,6 +178,7 @@ function translateToRussian() {
     hobby.textContent = 'ХОББИ';
     hobbyText.innerHTML = 'if (я не за компьютером){<br><span class="hobbies">я занимаюсь спортом (плавание, спортзал, бег);</span><br><span class="hobbies">я путешествую;</span><br><span class="hobbies">я ем (всё, кроме рыбы);</span><br><span class="hobbies">я сплю;</span><br>}';
     languageFlag = 'russian';
+    allFirstScaleLang.forEach(firstScaleLang => firstScaleLang.classList.add('lang'))
     closeNav();
   }
   else closeNav();
