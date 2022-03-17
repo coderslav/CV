@@ -1,4 +1,4 @@
-@import "fonts.css";
+@import 'fonts.css';
 @media {
     html {
         font-size: 8.9px;
@@ -17,9 +17,15 @@
         width: 153px;
         height: 153px;
     }
-    .profession {margin-top: 10px;}
-    .name {margin-top: 15px;}
-    .coordinates {margin-top: 30px;}
+    .profession {
+        margin-top: 10px;
+    }
+    .name {
+        margin-top: 15px;
+    }
+    .coordinates {
+        margin-top: 30px;
+    }
     .coordinates span {
         padding-right: 5px;
         width: 15px;
@@ -29,29 +35,62 @@
         width: 15px;
         height: 15px;
     }
-    .mail, .telegram, .github, .linkedin, .address {margin-top: 3px;}
-    .section-title {margin: 30px 0 10px;}
-    .skill {margin-bottom: 4px;}
-    .scale {height: 6px;}
+    .mail,
+    .telegram,
+    .github,
+    .linkedin,
+    .address {
+        margin-top: 3px;
+    }
+    .section-title {
+        margin: 30px 0 10px;
+    }
+    .skill {
+        margin-bottom: 4px;
+    }
+    .scale {
+        height: 6px;
+    }
     .scale.first-scale.lang {
         left: 38%;
         width: 47%;
     }
-    .middle-line {background: linear-gradient(180deg, #77E0C7 -56.41%, rgba(119, 224, 199, 0) 85.33%);}
-    .right-side {margin: 30px 35px 30px 15px;}
-    .overlay-button {right: calc(35px + 8px);}
-    .section-title.profile-title {margin-top: 0}
-    .language-content {padding: 4px;}
-    .sub-section-title {margin: 5px 0 3px;}
-    .sub-section-title-sub-title {margin-bottom: 3px;}
-    .hobby-text {padding-bottom: 4px}
+    .middle-line {
+        background: linear-gradient(180deg, #77e0c7 -56.41%, rgba(119, 224, 199, 0) 85.33%);
+    }
+    .right-side {
+        margin: 30px 35px 30px 15px;
+    }
+    .overlay-button {
+        right: calc(35px + 8px);
+    }
+    .section-title.profile-title {
+        margin-top: 0;
+    }
+    .language-content {
+        padding: 4px;
+    }
+    .sub-section-title {
+        margin: 5px 0 3px;
+    }
+    .sub-section-title-sub-title {
+        margin-bottom: 3px;
+    }
+    .hobby-text {
+        padding-bottom: 4px;
+    }
 }
-@media (max-width: 600px){
+@media (max-width: 600px) {
     html {
         font-size: 15px;
     }
-    .left-side, .right-side {margin: 0 10px;}
-    .overlay-button {right: calc(10px + 8px);}
+    .left-side,
+    .right-side {
+        margin: 0 10px;
+    }
+    .overlay-button {
+        right: calc(10px + 8px);
+    }
     .cv {
         margin: 0;
         padding: 10px 0;
@@ -65,8 +104,12 @@
         width: 229px;
         height: 229px;
     }
-    .profession {margin-top: 10px;}
-    .name {margin-top: 30px;}
+    .profession {
+        margin-top: 10px;
+    }
+    .name {
+        margin-top: 30px;
+    }
     .coordinates {
         width: max-content;
         margin: 30px auto;
@@ -80,39 +123,66 @@
         width: 22px;
         height: 22px;
     }
-    .tel, .mail, .telegram, .github, .linkedin, .address {
+    .tel,
+    .mail,
+    .telegram,
+    .github,
+    .linkedin,
+    .address {
         margin: 3px;
         width: max-content;
     }
-    .section-title, .section-title.profile-title {margin: 30px 0 10px;}
-    .skill {margin-bottom: 4px;}
-    .scale {height: 9px;}
+    .section-title,
+    .section-title.profile-title {
+        margin: 30px 0 10px;
+    }
+    .skill {
+        margin-bottom: 4px;
+    }
+    .scale {
+        height: 9px;
+    }
     .scale.first-scale.lang {
         left: 25%;
         width: 60%;
     }
-    .middle-line {display: none}
-    .language-content {padding: 4px;}
-    .sub-section-title {margin: 5px 0 3px;}
-    .sub-section-title-sub-title {margin-bottom: 3px;}
-    .hobby-text {padding-bottom: 4px}
+    .middle-line {
+        display: none;
+    }
+    .language-content {
+        padding: 4px;
+    }
+    .sub-section-title {
+        margin: 5px 0 3px;
+    }
+    .sub-section-title-sub-title {
+        margin-bottom: 3px;
+    }
+    .hobby-text {
+        padding-bottom: 4px;
+    }
 }
-@media (max-width: 528px){
+@media (max-width: 528px) {
     html {
         font-size: 13px;
     }
 }
-@media (max-width: 456px){
+@media (max-width: 456px) {
     html {
         font-size: 11px;
     }
 }
-@media (max-width: 390px){
+@media (max-width: 390px) {
     html {
         font-size: 10px;
     }
-    .left-side, .right-side {margin: 0 6px;}
-    .overlay-button {right: calc(6px + 8px);}
+    .left-side,
+    .right-side {
+        margin: 0 6px;
+    }
+    .overlay-button {
+        right: calc(6px + 8px);
+    }
     .cv {
         margin: 0;
         padding: 6px 0;
@@ -126,8 +196,12 @@
         width: 152px;
         height: 152px;
     }
-    .profession {margin-top: 6px;}
-    .name {margin-top: 20px;}
+    .profession {
+        margin-top: 6px;
+    }
+    .name {
+        margin-top: 20px;
+    }
     .coordinates {
         width: max-content;
         margin: 20px auto;
@@ -141,34 +215,60 @@
         width: 15px;
         height: 15px;
     }
-    .mail, .telegram, .github, .linkedin, .address {
+    .mail,
+    .telegram,
+    .github,
+    .linkedin,
+    .address {
         margin: 2px;
         width: max-content;
     }
-    .section-title, .section-title.profile-title {margin: 20px 0 6px;}
-    .skill {margin-bottom: 2px;}
-    .scale {height: 6px;}
+    .section-title,
+    .section-title.profile-title {
+        margin: 20px 0 6px;
+    }
+    .skill {
+        margin-bottom: 2px;
+    }
+    .scale {
+        height: 6px;
+    }
     .scale.first-scale.lang {
         left: 25%;
         width: 60%;
     }
-    .middle-line {display: none}
-    .language-content {padding: 2px;}
-    .sub-section-title {margin: 3px 0 2px;}
-    .sub-section-title-sub-title {margin-bottom: 2px;}
-    .hobby-text {padding-bottom: 2px}
+    .middle-line {
+        display: none;
+    }
+    .language-content {
+        padding: 2px;
+    }
+    .sub-section-title {
+        margin: 3px 0 2px;
+    }
+    .sub-section-title-sub-title {
+        margin-bottom: 2px;
+    }
+    .hobby-text {
+        padding-bottom: 2px;
+    }
 }
-@media (max-width: 359px){
+@media (max-width: 359px) {
     html {
         font-size: 9px;
     }
 }
-@media (max-width: 328px){
+@media (max-width: 328px) {
     html {
         font-size: 8px;
     }
-    .left-side, .right-side {margin: 0 5px;}
-    .overlay-button {right: calc(5px + 8px);}
+    .left-side,
+    .right-side {
+        margin: 0 5px;
+    }
+    .overlay-button {
+        right: calc(5px + 8px);
+    }
     .cv {
         margin: 0;
         padding: 5px 0;
@@ -182,8 +282,12 @@
         width: 114px;
         height: 114px;
     }
-    .profession {margin-top: 5px;}
-    .name {margin-top: 15px;}
+    .profession {
+        margin-top: 5px;
+    }
+    .name {
+        margin-top: 15px;
+    }
     .coordinates {
         width: max-content;
         margin: 30px auto;
@@ -197,44 +301,65 @@
         width: 11px;
         height: 11px;
     }
-    .mail, .telegram, .github, .linkedin, .address {
+    .mail,
+    .telegram,
+    .github,
+    .linkedin,
+    .address {
         margin: 1px;
         width: max-content;
     }
-    .section-title, .section-title.profile-title {margin: 30px 0 10px;}
-    .skill {margin-bottom: 2px;}
-    .scale {height: 4px;}
+    .section-title,
+    .section-title.profile-title {
+        margin: 30px 0 10px;
+    }
+    .skill {
+        margin-bottom: 2px;
+    }
+    .scale {
+        height: 4px;
+    }
     .scale.first-scale.lang {
         left: 25%;
         width: 60%;
     }
-    .middle-line {display: none}
-    .language-content {padding: 1px;}
-    .sub-section-title {margin: 2px 0 1px;}
-    .sub-section-title-sub-title {margin-bottom: 1px;}
-    .hobby-text {padding-bottom: 2px}
+    .middle-line {
+        display: none;
+    }
+    .language-content {
+        padding: 1px;
+    }
+    .sub-section-title {
+        margin: 2px 0 1px;
+    }
+    .sub-section-title-sub-title {
+        margin-bottom: 1px;
+    }
+    .hobby-text {
+        padding-bottom: 2px;
+    }
 }
-@media (min-width: 650px){
+@media (min-width: 650px) {
     html {
         font-size: 9.9px;
     }
 }
-@media (min-width: 700px){
+@media (min-width: 700px) {
     html {
         font-size: 12px;
     }
 }
-@media (min-width: 750px){
+@media (min-width: 750px) {
     html {
         font-size: 13px;
     }
 }
-@media (min-width: 800px){
+@media (min-width: 800px) {
     html {
         font-size: 14px;
     }
 }
-@media (min-width: 850px){
+@media (min-width: 850px) {
     html {
         font-size: 15px;
     }
@@ -247,9 +372,15 @@
         width: 229px;
         height: 229px;
     }
-    .profession {margin-top: 10px;}
-    .name {margin-top: 15px;}
-    .coordinates {margin-top: 30px;}
+    .profession {
+        margin-top: 10px;
+    }
+    .name {
+        margin-top: 15px;
+    }
+    .coordinates {
+        margin-top: 30px;
+    }
     .coordinates span {
         padding-right: 5px;
         width: 22px;
@@ -259,48 +390,72 @@
         width: 22px;
         height: 22px;
     }
-    .mail, .telegram, .github, .linkedin, .address {margin-top: 3px;}
-    .section-title {margin: 30px 0 10px;}
-    .skill {margin-bottom: 4px;}
-    .scale {height: 9px;}
-    .right-side {margin: 30px 35px 30px 15px;}
-    .overlay-button {right: calc(35px + 8px);}
-    .language-content {padding: 4px;}
-    .sub-section-title {margin: 5px 0 3px;}
-    .sub-section-title-sub-title {margin-bottom: 3px;}
-    .hobby-text {padding-bottom: 4px}
+    .mail,
+    .telegram,
+    .github,
+    .linkedin,
+    .address {
+        margin-top: 3px;
+    }
+    .section-title {
+        margin: 30px 0 10px;
+    }
+    .skill {
+        margin-bottom: 4px;
+    }
+    .scale {
+        height: 9px;
+    }
+    .right-side {
+        margin: 30px 35px 30px 15px;
+    }
+    .overlay-button {
+        right: calc(35px + 8px);
+    }
+    .language-content {
+        padding: 4px;
+    }
+    .sub-section-title {
+        margin: 5px 0 3px;
+    }
+    .sub-section-title-sub-title {
+        margin-bottom: 3px;
+    }
+    .hobby-text {
+        padding-bottom: 4px;
+    }
 }
-@media (min-width: 900px){
+@media (min-width: 900px) {
     html {
         font-size: 16px;
     }
 }
-@media (min-width: 950px){
+@media (min-width: 950px) {
     html {
         font-size: 17px;
     }
 }
-@media (min-width: 1000px){
+@media (min-width: 1000px) {
     html {
         font-size: 18px;
     }
 }
-@media (min-width: 1050px){
+@media (min-width: 1050px) {
     html {
         font-size: 19px;
     }
 }
-@media (min-width: 1100px){
+@media (min-width: 1100px) {
     html {
         font-size: 20px;
     }
 }
-@media (min-width: 1150px){
+@media (min-width: 1150px) {
     html {
         font-size: 21px;
     }
 }
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
     html {
         font-size: 21px;
     }
@@ -313,9 +468,15 @@
         width: 306px;
         height: 306px;
     }
-    .profession {margin-top: 15px;}
-    .name {margin-top: 22px;}
-    .coordinates {margin-top: 45px;}
+    .profession {
+        margin-top: 15px;
+    }
+    .name {
+        margin-top: 22px;
+    }
+    .coordinates {
+        margin-top: 45px;
+    }
     .coordinates span {
         padding-right: 7px;
         width: 30px;
@@ -325,63 +486,87 @@
         width: 30px;
         height: 30px;
     }
-    .mail, .telegram, .github, .linkedin, .address {margin-top: 4px;}
-    .section-title {margin: 45px 0 25px;}
-    .skill {margin-bottom: 6px;}
-    .scale {height: 12px;}
-    .right-side {margin: 45px 52px 45px 22px;}
-    .overlay-button {right: calc(52px + 8px);}
-    .language-content {padding: 6px;}
-    .sub-section-title {margin: 7px 0 4px;}
-    .sub-section-title-sub-title {margin-bottom: 4px;}
-    .hobby-text {padding-bottom: 6px}
+    .mail,
+    .telegram,
+    .github,
+    .linkedin,
+    .address {
+        margin-top: 4px;
+    }
+    .section-title {
+        margin: 45px 0 25px;
+    }
+    .skill {
+        margin-bottom: 6px;
+    }
+    .scale {
+        height: 12px;
+    }
+    .right-side {
+        margin: 45px 52px 45px 22px;
+    }
+    .overlay-button {
+        right: calc(52px + 8px);
+    }
+    .language-content {
+        padding: 6px;
+    }
+    .sub-section-title {
+        margin: 7px 0 4px;
+    }
+    .sub-section-title-sub-title {
+        margin-bottom: 4px;
+    }
+    .hobby-text {
+        padding-bottom: 6px;
+    }
 }
-@media (min-width: 1250px){
+@media (min-width: 1250px) {
     html {
         font-size: 22px;
     }
 }
-@media (min-width: 1300px){
+@media (min-width: 1300px) {
     html {
         font-size: 23px;
     }
 }
-@media (min-width: 1350px){
+@media (min-width: 1350px) {
     html {
         font-size: 24px;
     }
 }
-@media (min-width: 1400px){
+@media (min-width: 1400px) {
     html {
         font-size: 25px;
     }
 }
-@media (min-width: 1450px){
+@media (min-width: 1450px) {
     html {
         font-size: 26px;
     }
 }
-@media (min-width: 1500px){
+@media (min-width: 1500px) {
     html {
         font-size: 27px;
     }
 }
-@media (min-width: 1550px){
+@media (min-width: 1550px) {
     html {
         font-size: 28px;
     }
 }
-@media (min-width: 1600px){
+@media (min-width: 1600px) {
     html {
         font-size: 29px;
     }
 }
-@media (min-width: 1650px){
+@media (min-width: 1650px) {
     html {
         font-size: 30px;
     }
 }
-@media (min-width: 1700px){
+@media (min-width: 1700px) {
     html {
         font-size: 31px;
     }
@@ -394,9 +579,15 @@
         width: 459px;
         height: 459px;
     }
-    .profession {margin-top: 20px;}
-    .name {margin-top: 30px;}
-    .coordinates {margin-top: 60px;}
+    .profession {
+        margin-top: 20px;
+    }
+    .name {
+        margin-top: 30px;
+    }
+    .coordinates {
+        margin-top: 60px;
+    }
     .coordinates span {
         padding-right: 10px;
         width: 45px;
@@ -406,33 +597,57 @@
         width: 45px;
         height: 45px;
     }
-    .mail, .telegram, .github, .linkedin, .address {margin-top: 6px;}
-    .section-title {margin: 60px 0 20px;}
-    .skill {margin-bottom: 8px;}
-    .scale {height: 18px;}
-    .right-side {margin: 60px 70px 60px 30px;}
-    .overlay-button {right: calc(70px + 8px);}
-    .language-content {padding: 9px;}
-    .sub-section-title {margin: 10px 0 6px;}
-    .sub-section-title-sub-title {margin-bottom: 6px;}
-    .hobby-text {padding-bottom: 8px}
+    .mail,
+    .telegram,
+    .github,
+    .linkedin,
+    .address {
+        margin-top: 6px;
+    }
+    .section-title {
+        margin: 60px 0 20px;
+    }
+    .skill {
+        margin-bottom: 8px;
+    }
+    .scale {
+        height: 18px;
+    }
+    .right-side {
+        margin: 60px 70px 60px 30px;
+    }
+    .overlay-button {
+        right: calc(70px + 8px);
+    }
+    .language-content {
+        padding: 9px;
+    }
+    .sub-section-title {
+        margin: 10px 0 6px;
+    }
+    .sub-section-title-sub-title {
+        margin-bottom: 6px;
+    }
+    .hobby-text {
+        padding-bottom: 8px;
+    }
 }
-@media (min-width: 1750px){
+@media (min-width: 1750px) {
     html {
         font-size: 32px;
     }
 }
-@media (min-width: 1800px){
+@media (min-width: 1800px) {
     html {
         font-size: 33px;
     }
 }
-@media (min-width: 1850px){
+@media (min-width: 1850px) {
     html {
         font-size: 34px;
     }
 }
-@media (min-width: 1900px){
+@media (min-width: 1900px) {
     html {
         font-size: 35px;
     }
@@ -459,9 +674,15 @@
         width: 153px;
         height: 153px;
     }
-    .profession {margin-top: 10px;}
-    .name {margin-top: 15px;}
-    .coordinates {margin-top: 30px;}
+    .profession {
+        margin-top: 10px;
+    }
+    .name {
+        margin-top: 15px;
+    }
+    .coordinates {
+        margin-top: 30px;
+    }
     .coordinates span {
         padding-right: 5px;
         width: 15px;
@@ -471,25 +692,51 @@
         width: 15px;
         height: 15px;
     }
-    .mail, .telegram, .github, .linkedin, .address {margin-top: 3px;}
-    .section-title {margin: 30px 0 10px;}
-    .skill {margin-bottom: 4px;}
-    .scale {height: 6px;}
+    .mail,
+    .telegram,
+    .github,
+    .linkedin,
+    .address {
+        margin-top: 3px;
+    }
+    .section-title {
+        margin: 30px 0 10px;
+    }
+    .skill {
+        margin-bottom: 4px;
+    }
+    .scale {
+        height: 6px;
+    }
     .scale.first-scale.lang {
         left: 38%;
         width: 47%;
     }
     .middle-line {
-        background: linear-gradient(180deg, #77E0C7 -56.41%, rgba(119, 224, 199, 0) 85.33%);
+        background: linear-gradient(180deg, #77e0c7 -56.41%, rgba(119, 224, 199, 0) 85.33%);
         display: block;
     }
-    .right-side {margin: 30px 35px 30px 15px;}
-    .overlay-button {right: calc(35px + 8px);}
-    .section-title.profile-title {margin-top: 0}
-    .language-content {padding: 4px;}
-    .sub-section-title {margin: 5px 0 3px;}
-    .sub-section-title-sub-title {margin-bottom: 3px;}
-    .hobby-text {padding-bottom: 4px}
+    .right-side {
+        margin: 30px 35px 30px 15px;
+    }
+    .overlay-button {
+        right: calc(35px + 8px);
+    }
+    .section-title.profile-title {
+        margin-top: 0;
+    }
+    .language-content {
+        padding: 4px;
+    }
+    .sub-section-title {
+        margin: 5px 0 3px;
+    }
+    .sub-section-title-sub-title {
+        margin-bottom: 3px;
+    }
+    .hobby-text {
+        padding-bottom: 4px;
+    }
     .overlay-button {
         display: none;
     }
@@ -533,7 +780,8 @@ html {
     letter-spacing: 0.05em;
     color: var(--text-color);
 }
-.coordinates span, .language-content span {
+.coordinates span,
+.language-content span {
     display: inline-block;
     vertical-align: middle;
 }
@@ -541,7 +789,7 @@ html {
     text-decoration: none;
     color: var(--text-color);
 }
-.coordinates  div {
+.coordinates div {
     font-weight: normal;
     font-size: 0.9rem;
     letter-spacing: 0.05em;
@@ -551,7 +799,7 @@ html {
     background: url(../images/Tel_black.png) no-repeat;
     background-size: contain;
 }
- .mail-logo {
+.mail-logo {
     background: url(../images/Mail.png) no-repeat;
     background-size: contain;
 }
@@ -612,19 +860,45 @@ html {
     background: #169576;
     transform: matrix(1, 0, 0, -1, 0, 0);
 }
-.Python.scale.second-scale {width: 80%;}
-.JavaScript.scale.second-scale {width: 70%;}
-.HTMLCSS.scale.second-scale {width: 70%;}
-.Django.scale.second-scale {width: 80%;}
-.NodeJS.scale.second-scale {width: 25%;}
-.React.scale.second-scale {width: 25%;}
-.SQL.scale.second-scale {width: 40%;}
-.Redis.scale.second-scale {width: 40%;}
-.Figma.scale.second-scale {width: 70%;}
-.French.scale.second-scale {width: 80%;}
-.English.scale.second-scale {width: 70%;}
-.Ukrainian.scale.second-scale {width: 100%;}
-.Russian.scale.second-scale {width: 100%;}
+.Python.scale.second-scale {
+    width: 70%;
+}
+.JavaScript.scale.second-scale {
+    width: 80%;
+}
+.HTMLCSS.scale.second-scale {
+    width: 50%;
+}
+.Django.scale.second-scale {
+    width: 70%;
+}
+.NodeJS.scale.second-scale {
+    width: 70%;
+}
+.Express.scale.second-scale {
+    width: 80%;
+}
+.React.scale.second-scale {
+    width: 50%;
+}
+.Sequelize.scale.second-scale {
+    width: 80%;
+}
+.SQL.scale.second-scale {
+    width: 50%;
+}
+.French.scale.second-scale {
+    width: 80%;
+}
+.English.scale.second-scale {
+    width: 70%;
+}
+.Ukrainian.scale.second-scale {
+    width: 100%;
+}
+.Russian.scale.second-scale {
+    width: 100%;
+}
 .text {
     font-weight: normal;
     font-size: 0.9rem;
@@ -649,11 +923,12 @@ html {
 }
 .hobby-background {
     width: 100%;
-    background: #F7F6F6;
+    background: #f7f6f6;
     mix-blend-mode: darken;
-    border: 1px dashed #F7F6F6;
+    border: 1px dashed #f7f6f6;
 }
-div.hobby-text, span.hobbies {
+div.hobby-text,
+span.hobbies {
     font-family: 'PT Mono', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -683,7 +958,7 @@ div.hobby-text, span.hobbies {
     left: 0;
     width: 0;
     z-index: 1;
-    background-color: rgba(0,0,0, 0.9);
+    background-color: rgba(0, 0, 0, 0.9);
     overflow-x: hidden;
     transition: 0.8s;
 }

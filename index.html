@@ -1,140 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title id="titleName">Komin Rostyslav CV</title>
-    <link rel="stylesheet" href="css/index.css">
-</head>
-<body>
-<div id="myNav" class="overlay">
-    <span class="close-btn" onclick="closeNav()">&times;</span>
-    <div class="overlay-content">
-        <span class="english" id="eng">English</span>
-        <span class="francais" id="fra">Français</span>
-        <span class="russian" id="rus">Русский</span>
-    </div>
-</div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title id="titleName">Komin Rostyslav CV</title>
+        <link rel="stylesheet" href="css/index.css" />
+    </head>
+    <body>
+        <div id="myNav" class="overlay">
+            <span class="close-btn" onclick="closeNav()">&times;</span>
+            <div class="overlay-content">
+                <span class="english" id="eng">English</span>
+                <span class="francais" id="fra">Français</span>
+                <span class="russian" id="rus">Русский</span>
+            </div>
+        </div>
 
-<div class="cv">
-    <div class="part left-side">
-        <div onclick="openNav()" class="overlay-button">
-            <div class="language-content">
-                <span class="language-logo"></span>
-                <span class="actual-language" id="actualLanguage">ENGLISH</span>
+        <div class="cv">
+            <div class="part left-side">
+                <div onclick="openNav()" class="overlay-button">
+                    <div class="language-content">
+                        <span class="language-logo"></span>
+                        <span class="actual-language" id="actualLanguage">ENGLISH</span>
+                    </div>
+                </div>
+                <div class="section circle-image"></div>
+                <div class="section name" id="name">ROSTYSLAV KOMIN</div>
+                <div class="section profession" id="profession">Web Developer<br />Full-Stack</div>
+                <div class="section coordinates">
+                    <div class="tel"><span class="tel-logo"></span><a href="tel:+33630960965">+33630960965</a></div>
+                    <div class="mail"><span class="mail-logo"></span><a href="mailto:coderslav@gmail.com">coderslav@gmail.com</a></div>
+                    <div class="telegram"><span class="telegram-logo"></span><a href="https://t.me/coderslav">t.me/coderslav</a></div>
+                    <div class="github"><span class="github-logo"></span><a href="https://github.com/coderslav">github.com/coderslav</a></div>
+                    <div class="linkedin"><span class="linkedin-logo"></span><a href="https://linkedin.com/in/coderslav">linkedin.com/in/coderslav</a></div>
+                    <div class="address"><span class="address-logo"></span><a href="https://en.wikipedia.org/wiki/Fontenay-sous-Bois" id="city">Fontenay-sous-Bois</a></div>
+                </div>
+                <div class="section skills">
+                    <div class="section-title" id="skills">SKILLS</div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="scale first-scale">
+                            <div class="scale second-scale Python"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="scale first-scale">
+                            <div class="scale second-scale JavaScript"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML/CSS</span>
+                        <div class="scale first-scale">
+                            <div class="scale second-scale HTMLCSS"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Django</span>
+                        <div class="scale first-scale">
+                            <div class="scale second-scale Django"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Node</span>
+                        <div class="scale first-scale">
+                            <div class="scale second-scale NodeJS"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Express</span>
+                        <div class="scale first-scale">
+                            <div class="scale second-scale Express"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="scale scale first-scale">
+                            <div class="scale second-scale React"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Sequelize</span>
+                        <div class="scale first-scale">
+                            <div class="scale second-scale Sequelize"></div>
+                        </div>
+                    </div>
+                    <div class="skill last-skill">
+                        <span>SQL</span>
+                        <div class="scale first-scale">
+                            <div class="scale second-scale SQL"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section languages">
+                    <div class="section-title" id="languages">LANGUAGES</div>
+                    <div class="skill">
+                        <span id="frenchLanguage">French</span>
+                        <div class="scale first-scale"><div class="scale second-scale French"></div></div>
+                    </div>
+                    <div class="skill">
+                        <span id="englishLanguage">English</span>
+                        <div class="scale first-scale"><div class="scale second-scale English"></div></div>
+                    </div>
+                    <div class="skill">
+                        <span id="ukrainianLanguage">Ukrainian</span>
+                        <div class="scale first-scale"><div class="scale second-scale Ukrainian"></div></div>
+                    </div>
+                    <div class="skill last-skill">
+                        <span id="russianLanguage">Russian</span>
+                        <div class="scale first-scale"><div class="scale second-scale Russian"></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="part middle-line"></div>
+            <div class="part right-side">
+                <div class="section profile">
+                    <div class="section-title profile-title" id="profile">PROFILE</div>
+                    <div class="text profile-text" id="profileText">Former legionnaire of the French Foreign Legion with two master economic degrees, as well as 3 years of management experience and 2 year of Full-Stack Web Development experience in Python and JavaScript. In search of new professional experience and skills. Ambitious, disciplined and scrupulous</div>
+                </div>
+                <div class="section experience">
+                    <div class="section-title" id="experience">EXPERIENCE</div>
+                    <div class="experience-sub-section">
+                        <div class="sub-section-title first-sub-section-title">«Pet-projects»</div>
+                        <div class="sub-section-title-sub-title" id="skillFactoryExp">SkillFactory, MATRICE<br />October 2020 - March 2022</div>
+                        <div class="text experience-sub-section-text" id="skillFactoryExpText">
+                            Developed different projects as part of my study:<br />
+                            - copy of the social network<br /><span class="in-parentheses">JavaScript, Node, Express, React, Sequelize, PostgreSQL, HTML/CSS, Bootstrap</span><br />
+                            - desktop messenger<br /><span class="in-parentheses">Python, JavaScript, Django REST Framework, HTML/CSS, WebSocket, AJAX</span><br />
+                            - website to book participation in the "Escape Games”<br /><span class="in-parentheses">JavaScript, Node, Express, Handlebars, Sequelize, PostgreSQL, Bootstrap</span><br />
+                            - weather forecast website/app<br /><span class="in-parentheses">JavaScript, React, HTML/CSS, Material-UI (MUI), AJAX, Webpack</span><br />
+                            - business card website (my CV) deployed on “GitHub Pages”<br /><span class="in-parentheses">JavaScript, HTML/CSS</span><br />
+                            - bot for Telegram messenger<br /><span class="in-parentheses">Python, pyTelegramBotAPI</span><br />
+                            - games: "Tic-Tac-Toe", "Battleship" and “Connect Four”<br /><span class="in-parentheses">Python, JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="experience-sub-section">
+                        <div class="sub-section-title" id="legionnaireExp">Legionnaire</div>
+                        <div class="sub-section-title-sub-title" id="legionnaireExpTitle">French Foreign Legion<br />April 2015 - July 2020</div>
+                        <div class="text experience-sub-section-text" id="legionnaireExpText">
+                            - commanded a squad of 3-5 people<br /><span class="in-parentheses">organization and distribution of missions, training, leadership</span><br />
+                            - piloted heavy equipment<br /><span class="in-parentheses">dump truck, loader, excavator, bulldozer</span><br />
+                            - engaged in computer maintenance<br /><span class="in-parentheses">installation/configuration of OS and software, PC assembly</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="section formation">
+                    <div class="section-title" id="education">EDUCATION</div>
+                    <div class="formation-sub-section">
+                        <div class="sub-section-title first-sub-section-title" id="matriceEduTitle">JavaScript Full-Stack Web Developer</div>
+                        <div class="sub-section-title-sub-title sub-section-title-sub-title-formation" id="matriceEdu">MATRICE «Tremplin Full-Stack»<br />September 2021 - March 2022</div>
+                    </div>
+                    <div class="formation-sub-section">
+                        <div class="sub-section-title" id="skillFactoryEduTitle">Python Full-Stack Web Developer</div>
+                        <div class="sub-section-title-sub-title sub-section-title-sub-title-formation" id="skillFactoryEdu">SkillFactory<br />October 2020 - till date</div>
+                    </div>
+                    <div class="formation-sub-section">
+                        <div class="sub-section-title" id="frEduTitle">Master in Organization Management</div>
+                        <div class="sub-section-title-sub-title sub-section-title-sub-title-formation" id="frEdu">University of Auvergne (Clermont-Ferrand 1)<br />September 2008 - June 2013</div>
+                    </div>
+                    <div class="formation-sub-section">
+                        <div class="sub-section-title" id="uaEduTitle">Master in Commerce</div>
+                        <div class="sub-section-title-sub-title sub-section-title-sub-title-formation" id="uaEdu">Kyiv National University of Trade and Economics<br />September 2007 - June 2012</div>
+                    </div>
+                </div>
+                <div class="section hobby">
+                    <div class="section-title" id="hobby">HOBBY</div>
+                    <div class="div hobby-background">
+                        <div class="hobby-text" id="hobbyText">if (I'm not at the computer){<br /><span class="hobbies">I do sports (swimming, gym, jogging);</span><br /><span class="hobbies">I travel;</span><br /><span class="hobbies">I eat (everything except fish);</span><br /><span class="hobbies">I sleep;</span><br />}</div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="section circle-image"></div>
-        <div class="section name" id="name">ROSTYSLAV KOMIN</div>
-        <div class="section profession" id="profession">Web Developer<br>Full-Stack</div>
-        <div class="section coordinates">
-            <div class="tel">
-                <span class="tel-logo"></span><a href="tel:+33630960965">+33630960965</a>
-            </div>
-            <div class="mail">
-                <span class="mail-logo"></span><a href="mailto:coderslav@gmail.com">coderslav@gmail.com</a>
-            </div>
-            <div class="telegram">
-                <span class="telegram-logo"></span><a href="https://t.me/coderslav">t.me/coderslav</a>
-            </div>
-            <div class="github">
-                <span class="github-logo"></span><a href="https://github.com/coderslav">github.com/coderslav</a>
-            </div>
-            <div class="linkedin">
-                <span class="linkedin-logo"></span><a href="https://linkedin.com/in/coderslav">linkedin.com/in/coderslav</a>
-            </div>
-            <div class="address">
-                <span class="address-logo"></span><a href="https://en.wikipedia.org/wiki/Fontenay-sous-Bois" id="city">Fontenay-sous-Bois</a>
-            </div>
-        </div>
-        <div class="section skills">
-            <div class="section-title" id="skills">SKILLS</div>
-            <div class="skill"><span>Python</span><div class="scale first-scale">
-                <div class="scale second-scale Python"></div>
-            </div></div>
-            <div class="skill"><span>JavaScript</span><div class="scale first-scale">
-                <div class="scale second-scale JavaScript"></div>
-            </div></div>
-            <div class="skill"><span>HTML/CSS</span><div class="scale first-scale">
-                <div class="scale second-scale HTMLCSS"></div>
-            </div></div>
-            <div class="skill"><span>Django</span><div class="scale first-scale">
-                <div class="scale second-scale Django"></div>
-            </div></div>
-            <div class="skill"><span>Node.js</span><div class="scale first-scale">
-                <div class="scale second-scale NodeJS"></div>
-            </div></div>
-            <div class="skill"><span>React</span><div class="scale first-scale">
-                <div class="scale second-scale React"></div>
-            </div></div>
-            <div class="skill"><span>SQL</span><div class="scale scale first-scale">
-                <div class="scale second-scale SQL"></div>
-            </div></div>
-            <div class="skill"><span>Redis</span><div class="scale first-scale">
-                <div class="scale second-scale Redis"></div>
-            </div></div>
-            <div class="skill last-skill"><span>Figma</span><div class="scale first-scale">
-                <div class="scale second-scale Figma"></div>
-            </div></div>
-        </div>
-        <div class="section languages">
-            <div class="section-title" id="languages">LANGUAGES</div>
-            <div class="skill"><span id="frenchLanguage">French</span><div class="scale first-scale"><div class="scale second-scale French"></div></div></div>
-            <div class="skill"><span id="englishLanguage">English</span><div class="scale first-scale"><div class="scale second-scale English"></div></div></div>
-            <div class="skill"><span id="ukrainianLanguage">Ukrainian</span><div class="scale first-scale"><div class="scale second-scale Ukrainian"></div></div></div>
-            <div class="skill last-skill"><span id="russianLanguage">Russian</span><div class="scale first-scale"><div class="scale second-scale Russian"></div></div></div>
-        </div>
-    </div>
-    <div class="part middle-line"></div>
-    <div class="part right-side">
-        <div class="section profile">
-            <div class="section-title profile-title" id="profile">PROFILE</div>
-            <div class="text profile-text" id="profileText">Former legionnaire of the French Foreign Legion with two master economic degrees, as well as 3 years of management experience and 1 year of Full-Stack Web Development experience in Python and JavaScript. In search of new professional experience and skills. Ambitious, disciplined and scrupulous</div>
-        </div>
-        <div class="section experience">
-            <div class="section-title" id="experience">EXPERIENCE</div>
-            <div class="experience-sub-section">
-                <div class="sub-section-title first-sub-section-title">«Pet-projects»</div>
-                <div class="sub-section-title-sub-title" id="skillFactoryExp">SkillFactory<br>October 2020 - September 2021</div>
-                <div class="text experience-sub-section-text" id="skillFactoryExpText">Developed different projects as part of my study:<br>
-                    - desktop messenger<br><span class="in-parentheses">Python, JavaScript, Django REST Framework, HTML/CSS, WebSocket, AJAX</span><br>
-                    - information site<br><span class="in-parentheses">Python, Django, HTML/CSS</span><br>
-                    - bot for Telegram messenger<br><span class="in-parentheses">Python, pyTelegramBotAPI</span><br>
-                    - games: "Tic-Tac-Toe" and "Battleship"<br><span class="in-parentheses">Python</span></div>
-            </div>
-            <div class="experience-sub-section">
-                <div class="sub-section-title" id="legionnaireExp">Legionnaire</div>
-                <div class="sub-section-title-sub-title" id="legionnaireExpTitle">French Foreign Legion<br>April 2015 - July 2020</div>
-                <div class="text experience-sub-section-text" id="legionnaireExpText">- commanded a squad of 3-5 people<br><span class="in-parentheses">organization and distribution of missions, training, leadership</span><br>
-                    - piloted heavy equipment<br><span class="in-parentheses">dump truck, loader, excavator, bulldozer</span><br>
-                    - engaged in computer maintenance<br><span class="in-parentheses">installation/configuration of OS and software, PC assembly</span></div>
-            </div>
-        </div>
-        <div class="section formation">
-            <div class="section-title" id="education">EDUCATION</div>
-            <div class="formation-sub-section">
-                <div class="sub-section-title first-sub-section-title" id="matriceEduTitle">JavaScript Full-Stack Web Developer</div>
-                <div class="sub-section-title-sub-title sub-section-title-sub-title-formation" id="matriceEdu">MATRICE «Tremplin Full-Stack»<br>September 2021 - till date</div>
-            </div>
-            <div class="formation-sub-section">
-                <div class="sub-section-title" id="skillFactoryEduTitle">Python Full-Stack Web Developer</div>
-                <div class="sub-section-title-sub-title sub-section-title-sub-title-formation" id="skillFactoryEdu">SkillFactory<br>October 2020 - till date</div>
-            </div>
-            <div class="formation-sub-section">
-                <div class="sub-section-title" id="frEduTitle">Master in Organization Management</div>
-                <div class="sub-section-title-sub-title sub-section-title-sub-title-formation" id="frEdu">University of Auvergne (Clermont-Ferrand 1)<br>September 2008 - June 2013</div>
-            </div>
-            <div class="formation-sub-section">
-                <div class="sub-section-title" id="uaEduTitle">Master in Commerce</div>
-                <div class="sub-section-title-sub-title sub-section-title-sub-title-formation" id="uaEdu">Kyiv National University of Trade and Economics<br>September 2007 - June 2012</div>
-            </div>
-        </div>
-        <div class="section hobby">
-            <div class="section-title" id="hobby">HOBBY</div>
-            <div class="div hobby-background"><div class="hobby-text" id="hobbyText">if (I'm not at the computer){<br><span class="hobbies">I do sports (swimming, gym, jogging);</span><br><span class="hobbies">I travel;</span><br><span class="hobbies">I eat (everything except fish);</span><br><span class="hobbies">I sleep;</span><br>}</div></div>
-        </div>
-    </div>
-</div>
-<script src="js/index.js"></script>
-</body>
+        <script src="js/index.js"></script>
+    </body>
 </html>
